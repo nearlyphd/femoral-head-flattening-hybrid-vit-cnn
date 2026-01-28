@@ -208,3 +208,6 @@ __marimo__/
 
 # PyCharm workspace configuration
 .idea/
+
+# Data folder
+data/
