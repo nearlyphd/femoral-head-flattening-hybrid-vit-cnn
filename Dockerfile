@@ -18,7 +18,7 @@ RUN pip install --upgrade pip
 # Note: TensorFlow docker images usually come with specific CUDA versions.
 # We install the standard PyTorch pip package which includes its own CUDA runtime
 # to ensure maximum compatibility.
-RUN pip install torch torchvision torchaudio
+RUN pip install timm torch torchvision torchaudio
 
 # We force protobuf to be < 6.0.0 to make Tensorflow happy
 RUN pip install "protobuf<6.0.0"
